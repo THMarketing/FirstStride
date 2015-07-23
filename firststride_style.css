@@ -1,0 +1,218 @@
+::selection {
+  background: #ea792d; /* Safari */
+  }
+::-moz-selection {
+  background: #ea792d; /* Firefox */
+}
+@font-face {
+  font-family: "proxima_nova";
+  src: url("styles/fonts/ProximaNova-RegWeb.woff") format("woff");
+}
+@font-face {
+  font-family: "proxima_nova_bold";
+  src: url("styles/fonts/ProximaNova-BoldWeb.woff") format("woff");
+}
+.clearIt{
+  clear:both;
+}
+/*first stride variables
+base blue: #173d75;
+mid blue:#15468f;
+light blue:#0070cd;
+light grey:#e6e7e8;
+Orange: #ea792d;
+*/
+.support-content ul{
+  margin:0px 0px;
+}
+.land_bg{
+  background:url('/ui/FirstStrideBackground.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  background-position:center top;
+}
+img.fslogo{
+  position:relative;
+  margin:0 auto;
+  height: 139px;
+  width:386px;
+}
+.gradation_bg{
+  background:url('/ui/FS_gradation_2014.png');
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+.tips{
+  width:100%;
+  padding:2em;
+  height:auto;
+}
+.tips:nth-child(even){
+  background-color: #e6e7e8;
+}
+li.theNav, a.theNav {
+  font-family: "proxima_nova_bold", verdana, helvetica, sans-serif;
+  font-size:1.3em;
+  text-align:right;
+  color:#fff;
+  letter-spacing: .1em;
+  line-height: 1.1em;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding:0.2em 0 0.3em 0.2em;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.support-content{
+  background-color: #173d75;
+}
+
+span.navButton{
+  background-color:#ea792d;
+  padding:0.4em;
+}
+span.navButton:hover{
+  background-color:#0070cd;
+  padding:0.4em;
+}
+.mid_col{
+  height:auto;
+  display:block;
+  position: relative;
+  float:left;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding:2em 0 2em 0;
+  width:50%;
+}
+.ContentCopy{
+  font-family: "proxima_nova", verdana, helvetica, sans-serif;
+  font-size:1.5em;
+  text-align:left;
+  line-height: 1.3em;
+  padding:5em 1em;
+  position:relative;
+  width:90%;
+  margin:0 auto;
+}
+.sign_up_info{
+  font-family: "proxima_nova", verdana, helvetica, sans-serif;
+  font-size:1.5em;
+  text-align:left;
+  line-height: 1.3em;
+  position:relative;
+  width:90%;
+  margin:0 auto;
+  color:#173d75;
+}
+.baseBlue{
+  color:#173d75;
+}
+.baseWhite{
+  color:#fff;
+}
+.slantRight{
+  background:url('/ui/FirstStride_diagonal_LR.png');
+  background-position:center top;
+  background-repeat:no-repeat;
+  width:100%;
+}
+.slantLeft{
+  background:url('/ui/FirstStride_diagonal_RL_stripe.png');
+  background-position:center top;
+  background-repeat:no-repeat;
+  width:100%;
+}
+.border_left{border-left-color:white;border-left-style:dotted;border-left-width:3px;}
+.border_right{border-right-color:white;border-right-style:dotted;border-right-width:3px;}
+li.support-content{
+  margin:0px 0px;
+}
+ul.new{padding-top:0em;}
+.intro_2{
+  font-family: "proxima_nova_bold", verdana, helvetica, sans-serif;
+  font-size:6em;
+  text-align:center;
+  color:#fff;
+  letter-spacing: .1em;
+  line-height: 1.3em;
+  position:relative;
+  width:75%;
+  margin:0 auto;
+  border-bottom-style:dotted;
+  border-bottom-width: 3px ;
+  border-bottom-color: #ea792d; 
+}
+.intro{
+  font-family: "proxima_nova", verdana, helvetica, sans-serif;
+  font-size:3em;
+  text-align:left;
+  color:#fff;
+  letter-spacing: 0.1em;
+  line-height: 1.3em;
+  padding:1em 0 1em 0;
+  position:relative;
+  width:100%;
+  margin:0 auto;
+}
+img.FirstStride_button{
+  margin:0 auto;
+  text-align: center;
+  padding:1em 0 0 0;
+  position:relative1;
+  display:block;
+}
+@media screen and (max-width: 767px) {
+.mid_col{
+  width:100%;
+  margin:0 auto;
+}
+ul.new{
+  padding:0;
+}
+li.theNav{
+  padding:0em 0.5em;
+  text-align: center;
+  display:block;
+  line-height: 2em;
+  border-style:3px solid #173d75;
+  background-color: #ea792d;
+}
+li.theNav, a.theNav{
+    text-align: center;
+}
+.support-content li{
+  margin:4px 0;
+}
+img.fslogo{
+  width:100%;
+  height: auto;
+}
+.intro{
+  border-bottom-width: 0px;
+  width:95%;
+  padding:1em 0.5em;
+  text-align: left;
+  font-size:1.5em;
+}
+.border_left, .border_right{
+  border-left-width: 0px;
+  border-right-style: 0px;
+}
+.intro_2{
+  font-size: 3em;
+  width:100%;
+}
+span.navButton{
+  background-color: rgba(0,0,0 0);
+  padding:0;
+}
+span.navButton:hover{
+  background-color:none;
+  padding:0;
+}
+}
