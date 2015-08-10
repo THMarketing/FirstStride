@@ -1,3 +1,124 @@
+<style type="text/css">
+/* Change your page's background color or background image here */
+body {
+
+ }
+
+/* The form element is the main container for the entire page and is centered on the page by default. This width is dynamically calculated based on the maximum width of the rows within it. */
+form {
+width: 400px;
+ }
+
+/* This is the style for each individual row. */
+form .section {
+clear: both; }
+
+/* This is the style for each column within a row. */
+form .section .container {
+float: left; }
+
+/* This surrounds every field and caption area. */
+.field_block {
+display: block;
+padding: 0;
+margin: 0 0 6px 0; }
+
+/* A field's caption normally surrounds its label element. */
+.field_block .caption {
+display: block;
+font: bold 12px "Verdana", sans-serif;
+color: #173d75;
+padding: 0;
+margin: 0 0 4px 0; }
+
+/* The following are special styles for the layout of checkbox and radio fields */
+.field_block .checkbox .caption {
+display: inline;
+margin: 0; }
+
+.field_block div.radio span {
+display: block;
+margin: 0 0 3px 0;
+padding: 0; }
+
+.field_block div.radio span input.radio {
+display: inline;
+padding-right: 5px; }
+
+.field_block div.radio span label {
+font: normal 11px "Verdana", sans-serif;
+color: #333; }
+
+/* This is the individual field input. */
+.field_block .field {
+padding: 0;
+margin: 0; }
+
+/* The style for field-level errors */
+.field_block .field .field_error {
+display: block;
+padding-top: 3px;
+padding-bottom: 5px;
+font-size: 11px;
+color: #f00;
+font-weight: bold; }
+
+/* The styles for individual field types */
+.field_block .field input.text, .field_block .field input.float,
+.field_block .field input.password, .field_block .field input.integer,
+.field_block .field input.currency, .field_block .field input.date {
+border: 2px solid #173d75;
+border-top-color: #173d75;
+border-left-color: #173d75;
+font: normal 1.1em "Lucida Grande", "Verdana", sans-serif;
+color: #333;
+padding: 3px;
+margin: 0;
+width: 90%;
+height:30px; }
+
+.field_block .field input.date {
+width: 102px; }
+
+/* The styles for textareas are slightly larger than by default with no CSS */
+.field_block .field textarea {
+width: 300px;
+height: 150px; }
+
+/* This can be applied to any field element to make it wider than the default above */
+.field_block .field input.wide {
+width: 300px; }
+
+/* This can be applied to any field element to make it narrower than the default above */
+.field_block .field input.narrow {
+width: 100px; }
+
+/* A dropdown menu within a field is styled here. */
+.field_block .field select, .field_block .field select option {
+width: 200px; }
+
+/* Required fields are red and bold by default. */
+.required {
+color: #f00;
+font-weight: bold; }
+.main_form_contain{
+	width:780px;
+	position: relative;
+	display: block;
+
+}
+@media screen and (max-width: 767px) {
+#column_26940, .container{
+	width:100% !important;
+}
+#column_26941, .container{
+	width:100% !important;
+}
+.main_form_contain{
+	width:100%;
+}
+}
+</style>
 <form action="http://e.totalhockey.com/public/webform/process/" method="post">
 <input type="hidden" name="fid" value="djs4b5xj4mahjils0kaj8y28gexkx" />
 <input type="hidden" name="sid" value="b537165e137055351b5d866da2e8656e" />
@@ -172,7 +293,7 @@ Home Phone <span class="required">*</span>	</div>
 </div>
 <div class="field_block" field_id="360874">
 <div id="caption_360874" class="caption">
-fs_number_attending	</div>
+Number of kids (aged 5 - 8)	</div>
 <div class="field">
 <span>
 <select id="field_360874" class="select field" name="70017[360874]" >
@@ -194,56 +315,65 @@ fs_number_attending	</div>
 <div class="field_block" field_id="360866">
 <div class="field">
 <span>
-<input type="hidden" id="field_360866" class="hidden field" name="70018[360866]" value="" />
+<!-- Team Name -->
+<input type="hidden" id="field_360866" class="hidden field" name="70018[360866]" value="Eden Prairie" />
 </span>
 </div>
 </div>
 <div class="field_block" field_id="360867">
 <div class="field">
 <span>
-<input type="hidden" id="field_360867" class="hidden field" name="70019[360867]" value="" />
+<!-- Team Mascot -->
+<input type="hidden" id="field_360867" class="hidden field" name="70019[360867]" value="Hawks" />
 </span>
 </div>
 </div>
 <div class="field_block" field_id="360868">
 <div class="field">
 <span>
-<input type="hidden" id="field_360868" class="hidden field" name="70020[360868]" value="" />
+<!-- Event Rink -->
+<input type="hidden" id="field_360868" class="hidden field" name="70020[360868]" value="Eden Prairie Community Center (Rink 2)" />
 </span>
 </div>
 </div>
 <div class="field_block" field_id="360869">
 <div class="field">
 <span>
-<input type="hidden" id="field_360869" class="hidden field" name="70021[360869]" value="" />
+<!-- Event Date and Time -->
+<input type="hidden" id="field_360869" class="hidden field" name="70021[360869]" value="Sunday, September 13th: 3:15pm - 5:00pm" />
 </span>
 </div>
 </div>
 <div class="field_block" field_id="360872">
 <div class="field">
 <span>
-<input type="hidden" id="field_360872" class="hidden field" name="70022[360872]" value="" />
+<!-- Fitting Address -->
+<input type="hidden" id="field_360872" class="hidden field" name="70022[360872]" value="Total Hockey Store <br> Bloomington 4210 West 78th Street Edina, MN 55435 (952)-831-0021" />
 </span>
 </div>
 </div>
 <div class="field_block" field_id="360871">
 <div class="field">
 <span>
-<input type="hidden" id="field_360871" class="hidden field" name="70023[360871]" value="" />
+<!-- Fitting Date and Time -->
+<input type="hidden" id="field_360871" class="hidden field" name="70023[360871]" value="9/6/15 from 10am – 2pm, 9/11/15 from 4pm – 8pm" />
 </span>
 </div>
 </div>
 <div class="field_block" field_id="360870">
 <div class="field">
 <span>
-<input type="hidden" id="field_360870" class="hidden field" name="70024[360870]" value="" />
+<!-- Event Address -->
+<input type="hidden" id="field_360870" class="hidden field" name="70024[360870]" value="16700 Valley View Road
+Eden Prairie, MN 55346" />
 </span>
 </div>
 </div>
 <div class="field_block" field_id="360873">
 <div class="field">
 <span>
-<input type="hidden" id="field_360873" class="hidden field" name="70025[360873]" value="" />
+<!-- First Stride Local Contact -->
+<input type="hidden" id="field_360873" class="hidden field" name="70025[360873]" value="Michael Wagner $mdash; recruiting@ephockey.com or by phone: (952) 937-2599" />
 </span>
 </div>
 </div>
