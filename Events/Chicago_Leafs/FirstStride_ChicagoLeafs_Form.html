@@ -1,0 +1,393 @@
+<style type="text/css">
+/* Change your page's background color or background image here */
+body {
+
+ }
+
+/* The form element is the main container for the entire page and is centered on the page by default. This width is dynamically calculated based on the maximum width of the rows within it. */
+form {
+width: 400px;
+ }
+
+/* This is the style for each individual row. */
+form .section {
+clear: both; }
+
+/* This is the style for each column within a row. */
+form .section .container {
+float: left; }
+
+/* This surrounds every field and caption area. */
+.field_block {
+display: block;
+padding: 0;
+margin: 0 0 6px 0; }
+
+/* A field's caption normally surrounds its label element. */
+.field_block .caption {
+display: block;
+font: bold 12px "Verdana", sans-serif;
+color: #173d75;
+padding: 0;
+margin: 0 0 4px 0; }
+
+/* The following are special styles for the layout of checkbox and radio fields */
+.field_block .checkbox .caption {
+display: inline;
+margin: 0; }
+
+.field_block div.radio span {
+display: block;
+margin: 0 0 3px 0;
+padding: 0; }
+
+.field_block div.radio span input.radio {
+display: inline;
+padding-right: 5px; }
+
+.field_block div.radio span label {
+font: normal 11px "Verdana", sans-serif;
+color: #333; }
+
+/* This is the individual field input. */
+.field_block .field {
+padding: 0;
+margin: 0; }
+
+/* The style for field-level errors */
+.field_block .field .field_error {
+display: block;
+padding-top: 3px;
+padding-bottom: 5px;
+font-size: 11px;
+color: #f00;
+font-weight: bold; }
+
+/* The styles for individual field types */
+.field_block .field input.text, .field_block .field input.float,
+.field_block .field input.password, .field_block .field input.integer,
+.field_block .field input.currency, .field_block .field input.date {
+border: 2px solid #173d75;
+border-top-color: #173d75;
+border-left-color: #173d75;
+font: normal 1.1em "Lucida Grande", "Verdana", sans-serif;
+color: #333;
+padding: 3px;
+margin: 0;
+width: 90%;
+height:30px; }
+
+.field_block .field input.date {
+width: 102px; }
+
+/* The styles for textareas are slightly larger than by default with no CSS */
+.field_block .field textarea {
+width: 300px;
+height: 150px; }
+
+/* This can be applied to any field element to make it wider than the default above */
+.field_block .field input.wide {
+width: 300px; }
+
+/* This can be applied to any field element to make it narrower than the default above */
+.field_block .field input.narrow {
+width: 100px; }
+
+/* A dropdown menu within a field is styled here. */
+.field_block .field select, .field_block .field select option {
+width: 200px; }
+
+/* Required fields are red and bold by default. */
+.required {
+color: #f00;
+font-weight: bold; }
+.main_form_contain{
+	width:780px;
+	position: relative;
+	display: block;
+
+}
+@media screen and (max-width: 767px) {
+#column_26940, .container{
+	width:100% !important;
+}
+#column_26941, .container{
+	width:100% !important;
+}
+.main_form_contain{
+	width:100%;
+}
+}
+</style>
+<form action="http://e.totalhockey.com/public/webform/process/" method="post">
+<input type="hidden" name="fid" value="8xurimjxl5rj5cw2pqkge8a5zvxv6" />
+<input type="hidden" name="sid" value="b537165e137055351b5d866da2e8656e" />
+<input type="hidden" name="delid" value="" />
+<input type="hidden" name="subid" value="" />
+<input type="hidden" name="td" value="" />
+<input type="hidden" name="formtype" value="addcontact" />
+<script type="text/javascript">
+var fieldMaps = {};
+</script>
+<div class="section" id="row_24081">
+<div class="container" id="column_31145" style="text-align: left; width: 357px;">
+<div class="field_block" field_id="64923">
+<div id="caption_64923" class="caption">
+First Name: <span class="required">*</span>	</div>
+<div class="field">
+<span>
+<input type="text" id="field_64923" class="text field" size="35" name="69851[64923]" value="" />
+</span>
+<div class="field_error">
+</div>
+</div>
+</div>
+<div class="field_block" field_id="64924">
+<div id="caption_64924" class="caption">
+Last Name: <span class="required">*</span>	</div>
+<div class="field">
+<span>
+<input type="text" id="field_64924" class="text field" size="35" name="69852[64924]" value="" />
+</span>
+<div class="field_error">
+</div>
+</div>
+</div>
+<div class="field_block" field_id="64942">
+<div id="caption_64942" class="caption">
+Address <span class="required">*</span>	</div>
+<div class="field">
+<span>
+<input type="text" id="field_64942" class="text field" size="35" name="69853[64942]" value="" />
+</span>
+<div class="field_error">
+</div>
+</div>
+</div>
+<div class="field_block" field_id="64943">
+<div id="caption_64943" class="caption">
+City <span class="required">*</span>	</div>
+<div class="field">
+<span>
+<input type="text" id="field_64943" class="text field" size="35" name="69854[64943]" value="" />
+</span>
+<div class="field_error">
+</div>
+</div>
+</div>
+<div class="field_block" field_id="64944">
+<div id="caption_64944" class="caption">
+State (2 Letter Abbreviation) <span class="required">*</span>	</div>
+<div class="field">
+<span>
+<select id="field_64944" class="select field" name="69855[64944]" >
+<option value="ak" selected="selected">AK</option>
+<option value="al" >AL</option>
+<option value="ar" >AR</option>
+<option value="as" >AS</option>
+<option value="az" >AZ</option>
+<option value="ca" >CA</option>
+<option value="co" >CO</option>
+<option value="ct" >CT</option>
+<option value="dc" >DC</option>
+<option value="de" >DE</option>
+<option value="fl" >FL</option>
+<option value="fm" >FM</option>
+<option value="ga" >GA</option>
+<option value="gu" >GU</option>
+<option value="hi" >HI</option>
+<option value="ia" >IA</option>
+<option value="id" >ID</option>
+<option value="il" >IL</option>
+<option value="in" >IN</option>
+<option value="ks" >KS</option>
+<option value="ky" >KY</option>
+<option value="la" >LA</option>
+<option value="ma" >MA</option>
+<option value="me" >ME</option>
+<option value="md" >MD</option>
+<option value="mh" >MH</option>
+<option value="mi" >MI</option>
+<option value="mn" >MN</option>
+<option value="mo" >MO</option>
+<option value="mp" >MP</option>
+<option value="ms" >MS</option>
+<option value="mt" >MT</option>
+<option value="nc" >NC</option>
+<option value="nd" >ND</option>
+<option value="ne" >NE</option>
+<option value="nh" >NH</option>
+<option value="nj" >NJ</option>
+<option value="nm" >NM</option>
+<option value="nv" >NV</option>
+<option value="ny" >NY</option>
+<option value="oh" >OH</option>
+<option value="ok" >OK</option>
+<option value="or" >OR</option>
+<option value="pa" >PA</option>
+<option value="pr" >PR</option>
+<option value="pw" >PW</option>
+<option value="ri" >RI</option>
+<option value="sc" >SC</option>
+<option value="sd" >SD</option>
+<option value="tn" >TN</option>
+<option value="tx" >TX</option>
+<option value="ut" >UT</option>
+<option value="vi" >VI</option>
+<option value="vt" >VT</option>
+<option value="va" >VA</option>
+<option value="wa" >WA</option>
+<option value="wi" >WI</option>
+<option value="wv" >WV</option>
+<option value="wy" >WY</option>
+<option value="ab" >AB</option>
+<option value="bc" >BC</option>
+<option value="mb" >MB</option>
+<option value="nb" >NB</option>
+<option value="nf" >NF</option>
+<option value="nt" >NT</option>
+<option value="ns" >NS</option>
+<option value="nu" >NU</option>
+<option value="on" >ON</option>
+<option value="pe" >PE</option>
+<option value="qc" >QC</option>
+<option value="sk" >SK</option>
+<option value="yt" >YT</option>
+</select>
+</span>
+<div class="field_error">
+</div>
+</div>
+</div>
+<div class="field_block" field_id="64945">
+<div id="caption_64945" class="caption">
+Postal/ZIP Code <span class="required">*</span>	</div>
+<div class="field">
+<span>
+<input type="text" id="field_64945" class="text field" size="35" name="69856[64945]" value="" />
+</span>
+<div class="field_error">
+</div>
+</div>
+</div>
+<div class="field_block" field_id="360506">
+<div id="caption_360506" class="caption">
+Home Phone <span class="required">*</span>	</div>
+<div class="field">
+<span>
+<input type="text" id="field_360506" class="text field" size="35" name="69857[360506]" value="" />
+</span>
+<div class="field_error">
+</div>
+</div>
+</div>
+<div class="email field_block">
+<div class="caption">Email Address <span class="required">*</span></div>
+<div class="field">
+<span>
+<input type="text" class="text field fb-email" size="35" name="69858" value="" />
+</span>
+<div class="field_error">
+</div>
+</div>
+</div>
+<div class="field_block" field_id="360874">
+<div id="caption_360874" class="caption">
+Number of kids (aged 5 - 8)	</div>
+<div class="field">
+<span>
+<select id="field_360874" class="select field" name="69859[360874]" >
+<option value="1" selected="selected">1</option>
+<option value="2" >2</option>
+<option value="3" >3</option>
+<option value="4" >4</option>
+<option value="5" >5</option>
+<option value="6" >6</option>
+<option value="7" >7</option>
+<option value="8" >8</option>
+<option value="9" >9</option>
+</select>
+</span>
+<div class="field_error">
+</div>
+</div>
+</div>
+<div class="field_block" field_id="360866">
+<div class="field">
+<span>
+<!-- Team Name -->
+<input type="hidden" id="field_360866" class="hidden field" name="69860[360866]" value="Chicago Leafs" />
+</span>
+</div>
+</div>
+<div class="field_block" field_id="360867">
+<div class="field">
+<span>
+<!-- Team Mascot -->
+<input type="hidden" id="field_360867" class="hidden field" name="69861[360867]" value="Leafs" />
+</span>
+</div>
+</div>
+<div class="field_block" field_id="360868">
+<div class="field">
+<span>
+<!-- Event Rink -->
+<input type="hidden" id="field_360868" class="hidden field" name="69862[360868]" value="Leafs Ice Centre" />
+</span>
+</div>
+</div>
+<div class="field_block" field_id="360869">
+<div class="field">
+<span>
+<!-- Event Date and Time -->
+<input type="hidden" id="field_360869" class="hidden field" name="69863[360869]" value="Sunday, August 30th: 9am - 12pm" />
+</span>
+</div>
+</div>
+<div class="field_block" field_id="360872">
+<div class="field">
+<span>
+<!-- Fitting Address -->
+<input type="hidden" id="field_360872" class="hidden field" name="69864[360872]" value="Total Hockey Store: 1557 S Randall Rd Algonquin, IL 60102 <br>Phone: 847-658-5500" />
+</span>
+</div>
+</div>
+<div class="field_block" field_id="360871">
+<div class="field">
+<span>
+<!-- Fitting Date and time -->
+<input type="hidden" id="field_360871" class="hidden field" name="69865[360871]" value="8/23/15 – 10am-2pm, 8/26/15 – 4pm–8pm" />
+</span>
+</div>
+</div>
+<div class="field_block" field_id="360870">
+<div class="field">
+<span>
+<!-- Event Address -->
+<input type="hidden" id="field_360870" class="hidden field" name="69866[360870]" value="801 Wesemann Drive West Dundee, IL 60118 <br>Phone: 847-844-8700" />
+</span>
+</div>
+</div>
+<div class="field_block" field_id="360873">
+<div class="field">
+<span>
+<!-- First Stride Local Contact -->
+<input type="hidden" id="field_360873" class="hidden field" name="69867[360873]" value="Jeff Cesarone - president@leafshockeyclub.com" />
+</span>
+</div>
+</div>
+<div class="field_block">
+<div class="field">
+<span>
+<input type="submit" value="Submit" />
+</span>
+</div>
+</div>
+<input type="hidden" name="69869[386406]" value="true" />
+<input type="hidden" name="69871[526859]" value="true" />
+</div>
+<div class="container" id="column_31146" style="text-align: left; width: 0px;">
+</div>
+<div style="clear: both;">&nbsp;</div>
+</div>
+</form>
